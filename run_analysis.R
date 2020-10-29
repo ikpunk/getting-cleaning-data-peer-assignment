@@ -96,4 +96,4 @@ average <- dcast(m_data, subject + activity ~ variable, mean)
 
 ## write new tidy file
 
-write.table(average, "tidy dataset.txt", quote = FALSE, row.names = FALSE)
+write.table(average, "the_tidy_dataset.txt", quote = FALSE, row.names = FALSE)
